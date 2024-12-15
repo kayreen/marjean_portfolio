@@ -1,0 +1,51 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #f796d3; /* Optional background color */
+}
+
+.self-image {
+  width: 250px; /* Adjust size */
+  height: auto;
+  margin-top: 20px;
+  opacity: 0;
+  transition: all 4s ease-out;
+  border-radius: 50%; /* Makes the image circular */
+}
+
+.self-image.light-effect {
+  opacity: 1;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8); /* Light glow effect */
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+.tagline {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: #333;
+  opacity: 0;
+  transition: opacity 5s ease-in 1s; /* Delayed fade-in */
+}
+
+.tagline.fade-in-tagline {
+  opacity: 1;
+}
+.decorative-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px; /* Adjust width for the side design */
+  background: linear-gradient(180deg, #333, #333); /* Gradient design */
+  z-index: 1;
+}
+
+.left-bar {
+  left: 0;
+}
+
+.right-bar {
+  right: 0;
+}

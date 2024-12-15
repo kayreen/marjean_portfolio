@@ -1,0 +1,70 @@
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+  background-color: #f796d3;
+}
+
+.center-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.center-container p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #555;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+}
+
+.facebook {
+  color: #4267b2; /* Facebook Blue */
+}
+
+.instagram {
+  color: #e1306c; /* Instagram Pink */
+}
+
+.whatsapp {
+  color: #25d366; /* WhatsApp Green */
+}
+
+.email {
+  color: #d93025; /* Gmail Red */
+}
+.decorative-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px; /* Adjust width for the side design */
+  background: linear-gradient(180deg, #333, #333); /* Gradient design */
+  z-index: 1;
+}
+
+.left-bar {
+  left: 0;
+}
+
+.right-bar {
+  right: 0;
+}
