@@ -18,7 +18,7 @@ const About = () => {
       {/* Buttons for View and Download */}
       <div style={{ marginTop: "20px", textAlign: "center" }}>
         <a
-          href="/MarJeanRoxas_CV.pdf"
+          href="public/MarJeanRoxas_CV.pdf"
           target="_blank" // Opens in a new tab
           rel="noopener noreferrer"
           className="view-btn"
