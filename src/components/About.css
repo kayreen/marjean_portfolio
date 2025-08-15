@@ -12,6 +12,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
+  height: 140%;
   width: 50px;
   background: linear-gradient(180deg, #007bff, #0056b3);
   z-index: 1;
